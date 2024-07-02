@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: mont;
+    src: url(/assets/fonts/Montserrat-Bold.ttf);
+}
+
+/* header */
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+}
+
+.logo-div {
+    width: 150px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-div img {
+    height: 40px;
+}
+
+.logo-div p {
+    font-family: mont;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 70px;
+    margin-top: 15px;
+    font-family: mont;
+}
+
+.list-style {
+    color: #000000;
+    cursor: pointer;
+}
+
+.list-style:hover {
+    color: #EC368D;
+}
+
+.header-img {
+    display: flex;
+    gap: 20px;
+}
+
+.header-img-small {
+    height: 25px;
+    cursor: pointer;
+}
+
+/* end of header */
+/* section-first */
+.section-first {
+    margin-top: 323px;
+}
+
+.title {
+    width: 100px;
+    display: flex;
+    gap: 66px;
+    margin-left: 90px;
+}
+
+.title h1 {
+    font-family: mont;
+    font-size: 30px;
+}
+
+.text-section1 {
+    position: relative;
+}
+
+.text-section1 p {
+    font-size: 15px;
+    width: 310px;
+    color: #727272;
+    font-family: mont;
+    position: absolute;
+    left: 174px;
+    top: -80px;
+}
+
+.price{
+    position: relative;
+    font-family: mont;
+    color: #000000;
+    font-size: 25px;
+}
+
+.price p{
+    position: absolute;
+    left: 174px;
+}
+
+.buy-now-button{
+    position: relative;
+}
+.buy-now-button button{
+    position: absolute;
+    left: 174px;
+    top: 80px;
+    width: 395px;
+    height: 75px;
+    border-radius: 20px;
+    cursor:pointer;
+    border: none;
+    background-color: #D72828;
+    color: #ffff;
+    font-family: mont;
+    font-size: 20px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+}
+
+.back-pink{
+    position: relative;
+}
+
+.pink{
+    position: absolute;
+    right: 0px;
+    top: -430px;
+}
+
+.controler-div{
+    position: relative;
+}
+
+.controler{
+    position: absolute;
+    top: -437px;
+    right: 313px;
+    height: 683px;
+}
+
+.dots-div{
+    position: relative;
+}
+
+.dots{
+    position: absolute;
+    top: 310px;
+    left: 630px; 
+    cursor: pointer;
+}
+
+.white-dots{
+    position: absolute;
+    top: -135px;
+    right: 50px;
+}
